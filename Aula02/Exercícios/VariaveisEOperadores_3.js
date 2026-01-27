@@ -1,6 +1,4 @@
 "use strict"
-// Atividade 1 da lista.
-// Tentei fazer com uns detalhes a mais :)
 
 const leia = require("readline-sync")
 let continuar = false, valorHoraExtra = 100
@@ -85,7 +83,7 @@ while (continuar == false) {
     }
 }
 
-salarioLiquido = salario + adicionalNoturno + horasExtra - desconto
+salarioLiquido = salario + adicionalNoturno + horaExtra - desconto
 
 console.clear()
 console.log(
